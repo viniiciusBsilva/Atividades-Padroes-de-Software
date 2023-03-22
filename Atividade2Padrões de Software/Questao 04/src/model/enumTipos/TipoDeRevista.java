@@ -1,6 +1,6 @@
 package model.enumTipos;
 
-public enum TipoDeLivroERevista {
+public enum TipoDeRevista {
     Impresso,
     Digital
 }

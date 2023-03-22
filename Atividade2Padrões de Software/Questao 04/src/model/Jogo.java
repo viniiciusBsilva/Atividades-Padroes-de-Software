@@ -1,4 +1,4 @@
-package model.modelos;
+package model;
 
 import model.enumTipos.TipoDeJogo;
 
@@ -15,35 +15,21 @@ public class Jogo implements Artigo{
         this.descricao = descricao;
     }
 
+    @Override
     public String getNome() {
         return nome;
-    }
-
-    public void setNome(String nome) {
-        this.nome = nome;
     }
 
     public TipoDeJogo getTipoDeJogo() {
         return tipoDeJogo;
     }
 
-    public void setTipoDeJogo(TipoDeJogo tipoDeJogo) {
-        this.tipoDeJogo = tipoDeJogo;
-    }
-
+    @Override
     public Double getPreco() {
         return preco;
     }
 
-    public void setPreco(Double preco) {
-        this.preco = preco;
-    }
-
     public String getDescricao() {
         return descricao;
-    }
-
-    public void setDescricao(String descricao) {
-        this.descricao = descricao;
     }
 }

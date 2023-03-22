@@ -1,4 +1,4 @@
-package model.modelos;
+package model;
 
 public interface Artigo {
     public String getNome();

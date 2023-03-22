@@ -1,6 +1,6 @@
 package service.strategies;
 
-import model.modelos.Artigo;
+import model.Artigo;
 
 public class DescontoDe15Porcento implements PagamentoStrategy{
 
