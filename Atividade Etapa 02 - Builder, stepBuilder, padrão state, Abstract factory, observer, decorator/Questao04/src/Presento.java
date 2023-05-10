@@ -1,0 +1,4 @@
+enum Presento {
+    Frango,
+    Peru
+}

@@ -1,0 +1,4 @@
+enum Salada {
+    ComVerdura,
+    SemVerdura
+}
