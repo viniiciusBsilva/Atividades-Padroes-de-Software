@@ -1,5 +1,3 @@
-package org.example.quest3;
-
 interface EstadoProcesso {
     void avaliar(Processo processo);
     void deferir(Processo processo);

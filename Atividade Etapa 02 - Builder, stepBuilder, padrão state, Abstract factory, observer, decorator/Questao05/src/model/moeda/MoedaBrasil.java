@@ -1,4 +1,6 @@
-package org.example.quest5;
+package model.moeda;
+
+import model.moeda.Moeda;
 
 import java.text.DecimalFormat;
 

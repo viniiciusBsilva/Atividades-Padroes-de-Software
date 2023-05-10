@@ -1,8 +1,10 @@
-package org.example.quest5;
+package model.moeda;
+
+import model.moeda.Moeda;
 
 import java.text.DecimalFormat;
 
-public class MoedaEUA extends Moeda{
+public class MoedaEUA extends Moeda {
     public MoedaEUA(double valor) {
         super(valor);
     }

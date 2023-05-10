@@ -1,4 +1,4 @@
-package org.example.quest5;
+package model.moeda;
 
 public abstract class Moeda {
     protected double valor;

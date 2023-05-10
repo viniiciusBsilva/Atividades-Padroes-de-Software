@@ -1,7 +1,3 @@
-package org.example.quest4;
-
-import java.awt.desktop.QuitEvent;
-
 class Sanduiche {
     private Pao pao;
     private Queijo queijo;
@@ -46,5 +42,15 @@ class Sanduiche {
 
     public void setPresento(Presento presento) {
         this.presento = presento;
+    }
+
+    @Override
+    public String toString() {
+        return "Sanduiche{" +
+                "pao=" + pao +
+                ", queijo=" + queijo +
+                ", salada=" + salada +
+                ", presento=" + presento +
+                '}';
     }
 }

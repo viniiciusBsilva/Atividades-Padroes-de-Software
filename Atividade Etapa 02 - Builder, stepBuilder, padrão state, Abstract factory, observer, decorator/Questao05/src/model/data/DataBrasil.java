@@ -1,4 +1,6 @@
-package org.example.quest5;
+package model.data;
+
+import model.data.Data;
 
 public class DataBrasil extends Data {
     public DataBrasil(int dia, int mes, int ano) {

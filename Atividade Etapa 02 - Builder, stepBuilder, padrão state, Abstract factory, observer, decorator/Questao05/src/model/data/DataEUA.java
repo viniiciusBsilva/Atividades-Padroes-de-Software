@@ -1,6 +1,8 @@
-package org.example.quest5;
+package model.data;
 
-public class DataEUA extends Data{
+import model.data.Data;
+
+public class DataEUA extends Data {
     public DataEUA(int mes, int dia, int ano) {
         super(mes, dia, ano);
     }

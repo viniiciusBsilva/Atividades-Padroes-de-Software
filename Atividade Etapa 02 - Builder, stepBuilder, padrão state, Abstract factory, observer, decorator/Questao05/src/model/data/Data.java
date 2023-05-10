@@ -1,4 +1,4 @@
-package org.example.quest5;
+package model.data;
 
 public abstract class Data {
     protected int dia;

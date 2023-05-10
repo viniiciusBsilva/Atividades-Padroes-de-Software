@@ -1,12 +1,12 @@
-package abstractFactory;
+package Factory;
 
-import abstractFactory.LocalidadeAbstractFactory;
+import Factory.abstractFactory.LocalidadeAbstractFactory;
 import model.data.Data;
 import model.data.DataBrasil;
 import model.moeda.Moeda;
 import model.moeda.MoedaBrasil;
 
-public class LocalidadeBrasilFactory extends LocalidadeAbstractFactory {
+public class LocalidadeBrasilFactory implements LocalidadeAbstractFactory {
     @Override
     public Moeda getMoeda(double valor) {
         return new MoedaBrasil(valor);
